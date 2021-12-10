@@ -1,0 +1,74 @@
+.dashElements {
+  margin-left: 6%;
+  margin-right: 2%;
+}
+.analyticsIconsGrid .col-lg-6 {
+  padding-bottom: 30px;
+}
+.analyticsIcon {
+  height: 164px;
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 5px 10px #e9d3ff;
+}
+.anaNAv {
+  width: 100%;
+  padding-left: 6%;
+  padding-right: 2%;
+}
+.ImgContainer img {
+  height: 100%;
+  width: 100%;
+}
+span.apexcharts-legend-text {
+  color: #fff;
+}
+.ImgContainer {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 5px 10px #e9d3ff;
+  border-radius: 7px;
+}
+.analyticsIcon p:nth-child(3) {
+  font-weight: 400;
+  margin: 0px;
+  color: #3f414d;
+  padding: 0px 10px 5px 15px;
+  margin: 0px !important;
+  font-size: 30px;
+  font-style: normal !important;
+}
+.analyticsIcon p:nth-child(2) {
+  margin: 0px !important;
+  font-style: normal !important;
+  padding: 0px 10px 0px 15px;
+  font-weight: 400;
+  margin: 0px;
+  font-size: 20px;
+  color: #3f414d;
+}
+.analyticsTopSecIcon {
+  background-color: #a724da;
+  border-radius: 7px;
+}
+.analyticsTopSecIcon2 {
+  background-color: #28c76f;
+  border-radius: 7px;
+}
+.analyticsTopSecIcon3 {
+  background-color: #3fb0f2;
+  border-radius: 7px;
+}
+.analyticsTopSecIcon4 {
+  background-color: #ff2929;
+  border-radius: 7px;
+}
+svg.iconAna1 {
+  color: #fff;
+  font-size: 70px;
+  padding: 15px;
+}
+.css-4l7j15 {
+  box-shadow: 0 5px 10px #e9d3ff;
+  border-radius: 7px;
+}

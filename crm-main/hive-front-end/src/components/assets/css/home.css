@@ -1,0 +1,227 @@
+.banner-content-10 {
+  margin-bottom: 15px;
+}
+.banner-content-10 span {
+  background: -webkit-linear-gradient(right, #fac988, #e11a0c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner-content-10 .banner-button-group .button-4 {
+  padding: 15px 37px;
+  font-size: 16px;
+}
+
+.banner-content-10 .banner-button-group .button-4.active {
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid #5236a5;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .banner-content-10 .banner-button-group .button-4 {
+    font-size: 14px;
+    padding: 10px 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner-content-10 .banner-button-group .button-4 {
+    font-size: 14px;
+    padding: 10px 25px;
+  }
+}
+
+@media (max-width: 575px) {
+  .banner-content-10 .banner-button-group .button-4 {
+    font-size: 14px;
+    padding: 10px 25px;
+  }
+}
+
+.banner-content-10 .title {
+  font-size: 76px;
+  line-height: 86px;
+  margin-bottom: 15px;
+}
+
+.banner-content-10 p {
+  font-size: 24px;
+  line-height: 34px;
+  max-width: 455px;
+  margin: 0;
+  margin-bottom: 38px;
+}
+
+@media (max-width: 1199px) {
+  .banner-content-10 .title {
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner-content-10 .title {
+    margin-bottom: 10px;
+  }
+
+  .banner-content-10 p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 35px;
+  }
+}
+
+@media (max-width: 575px) {
+  .banner-content-10 .title {
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 10px;
+  }
+
+  .banner-content-10 p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 25px;
+  }
+
+  .banner-content-10 .banner-button-group .button-4 {
+    font-size: 16px;
+    padding: 10px 30px;
+  }
+
+  .banner-content-10 .banner-button-group .play-button img {
+    width: 40px;
+  }
+
+  .banner-content-10 .banner-button-group .play-button i {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .banner-content-10 .banner-button-group .play-button span {
+    padding-left: 10px;
+  }
+}
+
+.banner-10 {
+ 
+  position: relative;
+}
+
+@media (min-width: 576px) {
+  .banner-10 {
+    padding: 55px 0 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .banner-10 {
+    padding: 10px 0 90px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .banner-10 {
+    padding: 82px 0 86px;
+  }
+}
+
+.banner-10 .container {
+  position: relative;
+  z-index: 99;
+}
+
+.banner-thumb-10 {
+  -webkit-transform: translateX(-233px);
+  -ms-transform: translateX(-233px);
+  transform: translateX(-233px);
+}
+
+.banner-thumb-10 {
+  -webkit-transform: translateX(-233px);
+  -ms-transform: translateX(-233px);
+  transform: translateX(-233px);
+  margin-top: 50px;
+}
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+
+.banner-button-group {
+  width: 47% !important;
+  font-size: 17px;
+  padding: 10px !important;
+  border-radius: 5%;
+  padding: 15px;
+  text-align: center;
+}
+.bannerHome {
+  background-image: url(../img/backgroundHIVE.png);
+  background-position: center;
+  background-size: contain;
+  height: 100%;
+  background-color: #11101def;
+  background-repeat: repeat;
+  overflow: hidden;
+  color: #fff;
+}
+/** ----------------NAV---------------- **/
+.navbarHome {
+  width: 100%;
+  background-color: #f0f5fc !important;
+  margin: auto;
+}
+.buttonTopNav1 {
+  background: linear-gradient(to right, #fac988, #e11a0c) !important;
+}
+.buttonTopNav2 {
+  background: linear-gradient(to left, #e11a0c, #fac988) !important;
+  margin-left:15px;
+}
+.homeNavLinks {
+  margin-left: 120px;
+}
+/**-----------------END-----------------**/
+
+.bottom-shape {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.bottom-shape img {
+  width: 100%;
+}
+
+@media (max-width: 1199px) {
+  .top-shape,
+  .bottom-shape {
+    min-width: 1400px;
+  }
+
+  .top-shape.mw-0,
+  .bottom-shape.mw-0 {
+    min-width: 0;
+  }
+}
+
+.bottom-shape {
+  bottom: -2px;
+}

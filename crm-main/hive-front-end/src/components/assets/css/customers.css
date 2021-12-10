@@ -1,0 +1,11 @@
+.customers { 
+  margin-left: 6%;
+  margin-right: 3%;
+}
+.customersPage {
+  background-image: url(../img/icon-pattern-d6d10eefae.svg);
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: repeat;
+}

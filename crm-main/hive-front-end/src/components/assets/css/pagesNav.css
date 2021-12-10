@@ -1,0 +1,17 @@
+.pagesNav {
+  width: 100%;
+  margin: auto;
+  border-radius: 7px;
+  box-shadow: 0 5px 10px #f3e8ff;
+  background: #e11a0c !important;
+}
+.profileDrop {
+  border-radius: 7px;
+  width: 100px;
+}
+.dropdown-toggle:after {
+  color: #fff;
+}
+div.container-fluid {
+  padding: 0px !important;
+}
