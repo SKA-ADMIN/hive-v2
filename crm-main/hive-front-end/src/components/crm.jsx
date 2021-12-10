@@ -149,7 +149,7 @@ const CRM = () => {
 
     setFilterFn({
       fn: (items) => {
-        if (target.value == "") return items;
+        if (target.value === "") return items;
         else
           return items.filter((x) =>
             x.Name.toLowerCase().includes(target.value)

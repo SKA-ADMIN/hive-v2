@@ -1,19 +1,17 @@
-import React from "react";
 import LanguageIcon from "@mui/icons-material/Language";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import LeaderboardIcon from "@mui/icons-material/Leaderboard";
 import ForumIcon from "@mui/icons-material/Forum";
 import FooterPage from "./assets/nav/footer";
-import PieChartIcon from "@mui/icons-material/PieChart";
+//import PieChartIcon from "@mui/icons-material/PieChart";
 import "./assets/css/dashboard.css";
-import Axios from "axios";
+import { Link } from "react-router-dom";
 //Images
 import CrmTabImg from "./assets/img/custom-15.svg";
 import DashImg from "./assets/img/h3.png";
 import PagesNav from "./assets/nav/pagesNav";
 //Graph
 import { DashChart } from "./charts/graph";
-import Map from "./map";
 
 const axios = require("axios");
 // ===========================|| DEFAULT DASHBOARD ||=========================== //
@@ -32,10 +30,15 @@ export default function Dashboard() {
                 <div className="box-body pr-0 pl-lg-50 pl-15 py-0 ">
                   <div className="row align-items-center ">
                     <div className="col-12 col-lg-8">
-                      <h1 className="font-size-30 text-white">Welcome Jane !</h1>
-                      <h4 className="text-white ml-4"><em>Dashboard</em></h4>
+                      <h1 className="font-size-30 text-white">
+                        Welcome Jane !
+                      </h1>
+                      <h4 className="text-white ml-4">
+                        <em>Dashboard</em>
+                      </h4>
                       <p className="text-white mb-0 font-size-20">
-                        Take a peek at your overview analytics in the last 24 hours.
+                        Take a peek at your overview analytics in the last 24
+                        hours.
                       </p>
                     </div>
                     <div className="col-12 col-lg-4">
@@ -43,8 +46,7 @@ export default function Dashboard() {
                     </div>
                   </div>
                 </div>
-              </div>
-              {" "}
+              </div>{" "}
               <div className="row">
                 {" "}
                 <div className="col-sm-6 col-md-6 col-lg-3">
@@ -58,7 +60,7 @@ export default function Dashboard() {
                           <div className="rounded-circle iq-card-icon3 iq-bg-warning mr-2">
                             <LeaderboardIcon className="iconDash3" />
                           </div>
-                          <h2 className="ml-4">  62</h2>
+                          <h2 className="ml-4"> 62</h2>
                         </div>
                         <div className="iq-map text-warning font-size-32">
                           <i className="bx bx-bar-chart"></i>
@@ -188,26 +190,25 @@ export default function Dashboard() {
               <div className="quick-link-container">
                 <div className="quick-link">
                   <div className="background" />
-                  <a href="/analytics">Analytics</a>
+                  <Link to="/analytics">Analytics</Link>
                 </div>
                 <div className="quick-link">
                   <div className="background" />
-                  <a href="/crm">CRM</a>
+                  <Link to="/crm">CRM</Link>
                 </div>
                 <div className="quick-link">
                   <div className="background" />
-                  <a href="/customers">customers</a>
+                  <Link to="/customers">customers</Link>
                 </div>
 
                 <div className="quick-link">
                   <div className="background" />
-                  <a href="/call-tracking">Call tracking</a>
+                  <Link to="/call-tracking">Call tracking</Link>
                 </div>
               </div>
             </div>
           </div>
           <br />
-
         </div>
         <br />
       </div>

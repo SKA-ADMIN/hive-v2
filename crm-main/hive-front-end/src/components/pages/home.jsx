@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import "../assets/css/home.css";
 
 //Images
-import bottomShapeImg from "../assets/img/banner-10.png";
+//import bottomShapeImg from "../assets/img/banner-10.png";
 import homeImg from "../assets/img/bannerHome.png";
 import FooterPage from "../assets/nav/footer";
 import HomeNav from "../assets/nav/homeNav";

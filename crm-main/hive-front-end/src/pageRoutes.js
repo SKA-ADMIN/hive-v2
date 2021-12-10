@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import {  Route } from "react-router-dom";
 import Dashboard from "./components/dashboard.jsx";
 import Analytics from "./components/analytics.jsx";
 import Customers from "./components/customers.jsx";

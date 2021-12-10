@@ -43,12 +43,6 @@ const db = mysql.createPool({
 
 /// Middleware
 
-app.use(
-  cors({
-    origin: "http://localhost:3000",
-    credentials: true,
-  })
-);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(flash());

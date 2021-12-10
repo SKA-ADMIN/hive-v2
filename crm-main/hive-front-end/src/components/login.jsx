@@ -2,17 +2,15 @@ import React, { useState } from "react";
 import "./assets/css/login.css";
 import { Link } from "react-router-dom";
 import LoginBg from "./assets/img/login.png";
-import Axios from "axios";
-import { Redirect } from "react-router-dom";
+//import Axios from "axios"; 
 
 const Login = (e) => {
   const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [isAuth, setIsAuth] = useState(true);
+  const [password, setPassword] = useState(""); 
 
-  const login = (e) => {
+/*   const login = (e) => {
     e.preventDefault();
-    /*         Axios({
+           Axios({
           method: "POST",
           data: {
             username: email,
@@ -20,8 +18,8 @@ const Login = (e) => {
           },
           withCredentials: true,
           url: "http://localhost:3001/login",
-        }).then((response) => console.log(response)); */
-  };
+        }).then((response) => console.log(response)); 
+  }; 
   const register = (e) => {
     e.preventDefault();
     Axios({
@@ -31,9 +29,9 @@ const Login = (e) => {
         password: password,
       },
       withCredentials: true,
-      url: "http://localhost:3001/register",
+      url: "/register",
     }).then((response) => console.log(response));
-  };
+  }; */
   return (
     <div className="container-fluid">
       <div className="login-card">
